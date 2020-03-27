@@ -1,0 +1,85 @@
+.redcrystal {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    position: relative;
+}
+
+.bluecrystal {
+    margin: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.yellowcrystal {
+    margin: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.greencrystal {
+    margin: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.p-box {
+width: 400px;
+border: solid;
+border-width: 5 px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+
+.randombox {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 5px;
+    margin-left: 20px;
+    margin-right: 1100px;
+}
+
+.winlossbox {
+    float: left;
+    height: 200px;
+    width: 100px;
+    margin-left: 300px;
+    border: solid;
+    border-width: 5px;
+    margin-bottom: 20px;
+    margin-right: 1000px;
+    position: absolute;
+}
+
+.smalltotalscorebox {
+    width: 400px;
+    border: solid;
+    border-width: 5px;
+    height: 50px;
+    margin-left: 20px;
+    
+}
+.bigtotalscorebox {
+    height: 100px;
+    width: 400px;
+    margin: 20px;
+    border: solid;
+    border-width: 5px;
+}
+
+.scoreboxes {
+    position: relative;
+    float: left;
+    width: 1100px;
+    height: 300px;
+}
