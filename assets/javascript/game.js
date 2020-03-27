@@ -1,4 +1,4 @@
-
+//starting with all the variables I will need
 
 wins = 0;
 losses = 0;
@@ -8,6 +8,8 @@ var bluejewelnumber = "";
 var greenjewelnumber = "";
 var yellowjewelnumber = "";
 var totalnumber = 0;
+
+
 //this function resets the game
 
 
@@ -15,7 +17,7 @@ var totalnumber = 0;
 function reset() {
 
 
-// first I'll create variable that will hold the values of random number and each of the jewels
+// this puts a random number in each of the variables and sets total number to 0
 
 randomnumber = (Math.floor(Math.random() * 103)) + 18;
 console.log("the random number chosen is " + randomnumber);
@@ -48,7 +50,7 @@ $("#totalscore").text(totalnumber);
 
 
 // now we have the numbers, I will create an onclick event listener that grabs the number of the respective jewel, and adds it to the
-//total for the user
+//total for the user.  Each button will also check the win condition function defined below
 
 $("#red").on("click", function() {
  totalnumber = totalnumber + redjewelnumber;
@@ -77,6 +79,9 @@ $("#yellow").on("click", function() {
     $("#totalscore").text(totalnumber);
     wintest();
 });
+
+// as implied, this checks the win condition, tallies up the counter, and then resets the game (I set total number to -5
+//to prevent any double losing or double winning)
 
 function wintest() {
     if (totalnumber === randomnumber) {
